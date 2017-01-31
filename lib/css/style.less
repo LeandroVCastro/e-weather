@@ -1,0 +1,52 @@
+
+//Cores
+@primary: #16a085;
+
+body{
+  background-color: @primary;
+}
+
+
+
+#destaque{
+  .icone-clima{
+    display: table;
+    margin: 0px auto;
+    i{
+      color: #fff;
+      font-size: 80px;
+      margin-bottom: 10px;
+    }
+
+  }
+  h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+
+  }
+  h5{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+  }
+  p{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and(min-width: 992px){
+  #destaque{
+    margin-top: 170px;
+  }
+}
+
+@media screen and(max-width: 991px){
+  #destaque{
+    margin-top: 40px;
+  }
+}
